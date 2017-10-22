@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Scoped CSS Variables and JS</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+      <div class="container">
+          <div class="controls">
+              <h2 class='hl'>Фотофильтры</h2>
+
+              <label>Цвет фона:
+                  <input type="color" name="base" value="#008C8C">
+              </label><br>
+
+              <label>Размер фото:
+                  <input type="range" name="spacing" min="20" max="90" value="50" data-sizing="%">
+              </label><br>
+
+              <label>Размытие:
+                  <input type="range" name="blur" min="0" max="6" value="0" data-sizing="px">
+              </label><br>
+
+              <label>Инверсия:
+                  <input type="range" name="invert" min="0" max="100" value="0" data-sizing="%">
+              </label><br>
+
+              <label>Сепия:
+                  <input type="range" name="sepia" min="0" max="100" value="0" data-sizing="%">
+              </label><br>
+
+              <label>Насыщенность:
+                  <input type="range" name="saturate" min="0" max="100" value="100" data-sizing="%">
+              </label><br>
+
+              <label>Оттенок:
+                  <input type="range" name="hue-rotate" min="0" max="360" value="0" data-sizing="deg">
+              </label><br>
+          </div>
+
+          <div class="image">
+              <img src="img/lenna.png" alt="lenna">
+          </div>          
+      </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>

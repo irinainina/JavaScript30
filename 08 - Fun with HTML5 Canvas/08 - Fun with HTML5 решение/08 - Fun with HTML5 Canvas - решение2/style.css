@@ -1,0 +1,41 @@
+html, body {
+   margin: 0; 
+}
+
+.palette {
+    position: absolute; 
+    
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.orange {
+    background-color: hsl(17, 100%, 50%)
+}
+
+.red {
+    background-color: hsl(341, 100%, 50%)
+}
+
+.violet {
+    background-color: hsl(274, 100%, 50%)
+}
+
+.blue {
+    background-color: hsl(188, 100%, 50%)
+}
+
+.green {
+    background-color: hsl(108, 100%, 50%)
+}
+
+.yellow {
+    background-color: hsl(56, 100%, 50%)
+}
+    
