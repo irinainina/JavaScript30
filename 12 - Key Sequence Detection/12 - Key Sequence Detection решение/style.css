@@ -1,0 +1,47 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #363942 url("bg.jpg") no-repeat right bottom;
+    background-size: contain;    
+}
+
+.define {
+    color: #ffffff;
+    padding: 40px 0 40px 40px;
+    font-size: 2em;
+    width: 50%;
+}
+
+.input {
+    border-top: 2px solid red;
+}
+
+.rede {
+    color: red;
+    font-size: 1em;
+}
+
+.input-text {
+    margin: 20px 0 40px;
+    font-size: 4em;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    color: red;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid red;
+    padding: 10px 25px;
+}
+
+button:hover {
+    color: white;
+}
