@@ -1,0 +1,55 @@
+html {
+    font-size: 100px;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:
+        radial-gradient(white 15%, transparent 16%) 0 0,
+        radial-gradient(white 15%, transparent 16%) 5px 5px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 5px 6px;
+    background-color: #D7D7D7;
+    background-size: 10px 10px;
+    background-attachment: fixed;
+}
+
+.arrow {
+    width:250px;
+    height: 250px;
+    overflow: hidden;
+    transition: all 0.2s;
+    transform:rotate(0deg);
+    display: inline-block;
+    background: url("bg.svg");
+    background-size: 250px 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.units {
+    color: #282828;
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+}
+
+.units span {
+    line-height: 60px;
+    font-size: 32px;
+}
+
+.units img {
+    margin: 15px;
+    width: 400px;
+    height: 400px;
+    border: 2px #ccc solid;
+    outline: 15px #eee solid;
+}
+
+/*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
