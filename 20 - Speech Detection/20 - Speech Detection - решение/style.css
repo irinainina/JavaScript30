@@ -1,0 +1,75 @@
+html {
+    min-height: 100vh;
+    font-size: 14px;
+}
+
+body {
+    min-width: 600px;
+    background: url("bg.png") no-repeat top left;
+    background-size: cover;
+    background-color: #6c9b66;
+    background-color: #2a2e3e;
+    font-family: "helvetica neue";
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.description {    
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10rem auto 1rem;
+    background: #353948;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.7em;
+    cursor: pointer;
+    background-color: #a0cf67;
+    transition: background-color 300ms ease-out;
+    color: #fff;
+    border-radius: 5px;
+    width: 45%;
+    margin: 15px 10px;
+    font-weight: 200;
+}
+
+.words {
+    max-width: 450px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    padding: 1rem 2rem 1rem 5rem;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background-size: 100% 3rem;
+    position: relative;
+    line-height: 3rem;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+.words:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent #efe4e4;
+}
